@@ -1,0 +1,53 @@
+# --- Environment ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual Environments ---
+venv/
+venv_frontend/
+.venv/
+env/
+
+# --- Vector Store / Data ---
+data/chroma_db/*
+!data/chroma_db/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# --- Uploads ---
+uploads/*
+!uploads/.gitkeep
+
+# --- Logs ---
+logs/*
+!logs/.gitkeep
+*.log
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Testing / Coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Type Checking ---
+.mypy_cache/

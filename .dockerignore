@@ -1,0 +1,27 @@
+# --- Environment ---
+.env
+venv/
+.venv/
+
+# --- Python ---
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# --- Local data (mounted as volumes instead) ---
+data/chroma_db/*
+data/raw/*
+data/processed/*
+uploads/*
+logs/*
+
+# --- Version control / editor ---
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# --- Docs ---
+README.md
+docs_architecture.mermaid

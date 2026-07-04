@@ -1,0 +1,22 @@
+[
+  {
+    "order_id": "ORD1001",
+    "status": "Shipped",
+    "estimated_delivery": "2026-07-05"
+  },
+  {
+    "order_id": "ORD1002",
+    "status": "Processing",
+    "estimated_delivery": "2026-07-10"
+  },
+  {
+    "order_id": "ORD1003",
+    "status": "Delivered",
+    "estimated_delivery": "2026-06-28"
+  },
+  {
+    "order_id": "ORD1004",
+    "status": "Cancelled",
+    "estimated_delivery": "N/A"
+  }
+]
